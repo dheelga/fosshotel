@@ -1,0 +1,180 @@
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+.hospitality
+{
+	background: url('../img/hospitality.jpg');
+    height: 150px;
+    width: 260px;
+    float: right;
+}
+
+.food
+{
+	background: url('../img/food.jpg');
+    height: 150px;
+    width: 260px;
+    float: right;
+}
+
+.roomservice
+{
+	background: url('../img/roomservice.jpg');
+    height: 150px;
+    width: 260px;
+    float: right;
+}
+
+.ambience
+{
+	background: url('../img/ambience.jpg');
+    height: 150px;
+    width: 260px;
+    float: right;
+}
+
+.cart-box
+{
+	padding-right: 180px;
+	padding-left: 180px;
+}
+
+.chennai
+{
+	background: url('../img/chennai.jpg');
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+
+.bangalore
+{
+	background: url('../img/bangalore.jpg');
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+
+.kochi
+{
+	background: url('../img/kochi.jpg');
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+
+.delhi
+{
+	background: url('../img/delhi.jpg');
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+
+.mumbai
+{
+	background: url('../img/mumbai.jpg');
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+
+.kolkatta
+{
+	background: url('../img/kolkatta.jpg');
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+
+#order
+{
+	background: #336666;
+	
+
+}
+
+#order .sharp
+{
+	border-radius:0;
+}
+
+#order .outline {
+    background: none;
+    padding: 7px 15px;
+}
+#order .outline {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#order a
+{
+	font-size:16px;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	margin-left: 675px;
+}
+
+/* Base for label styling */
+#place [type="checkbox"]:not(:checked),
+#place [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+#place [type="checkbox"]:not(:checked) + label,
+#place [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+#place [type="checkbox"]:not(:checked) + label:before,
+#place [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+#place [type="checkbox"]:not(:checked) + label:after,
+#place [type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 3px; left: 4px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+#place [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+#place [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 1px solid #4778d9!important;
+}
